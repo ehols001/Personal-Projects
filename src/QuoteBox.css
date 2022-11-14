@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Georgia, serif;
+}
+
+.wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 500px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-box {
+  background-color: white;
+  border-radius: 3px;
+}
+
+#text {
+  padding: 40px 50px 25px 50px;
+  text-align: center;
+  font-size: 1.75em;
+  color: tan;
+}
+
+#author {
+  padding-right: 50px;
+  text-align: right;
+  color: tan;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px 40px 50px;
+}
+
+.buttons :hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#twitter-icon:hover {
+  opacity: 1;
+}
+
+#tweet-quote {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: tan;
+  text-decoration: none;
+}
+
+#new-quote {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: tan;
+  text-decoration: none;
+}
+
+.creator {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8em;
+}
+
+.creatorLink {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.creatorLink:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
