@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Random Quote Machine
+
+Created and developed by Evan Holster
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
