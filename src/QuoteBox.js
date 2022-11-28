@@ -81,11 +81,15 @@ class Wrapper extends React.Component {
     return (
       <div className="wrapper">
         <QuoteBox />
-        <p className="creator">
-          <a className="creatorLink" href="https://www.linkedin.com/in/evan-holster-b1b909239/" target="_blank" rel="noreferrer">
-            by Evan Holster <i id="linkedin-icon" class="fa-brands fa-linkedin" />
+        <div className="creator">
+          <a className="githubLink" href="https://github.com/ehols001/Random-Quote-Machine" target="_blank" rel="noreferrer">
+            <i id="github-icon" class="fa-brands fa-github fa-xl" />
           </a>
-        </p>
+          <p>by Evan Holster</p>
+          <a className="linkedinLink" href="https://www.linkedin.com/in/evan-holster-b1b909239/" target="_blank" rel="noreferrer">
+            <i id="linkedin-icon" class="fa-brands fa-linkedin fa-xl" />
+          </a>
+        </div>
       </div>
     );
   }

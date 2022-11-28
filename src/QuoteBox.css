@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: Georgia, serif;
+  font-family: "Raleway", serif;
 }
 
 .wrapper {
@@ -70,21 +70,28 @@ body {
   color: white;
   background-color: tan;
   text-decoration: none;
+  font-family: "Raleway", serif;
 }
 
 .creator {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 15px;
   font-size: 0.8em;
-}
-
-.creatorLink {
   color: white;
-  padding: 5px;
-  text-decoration: none;
 }
 
-.creatorLink:hover {
+.creator p {
+  padding: 3px;
+}
+
+.linkedinLink, .githubLink {
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.linkedinLink:hover, .githubLink:hover {
   opacity: 0.8;
   cursor: pointer;
 }
