@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 sync build/ s3://evanholster.com",
+    "deploy": "aws s3 sync build/ s3://evanholsterrqm.com",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
